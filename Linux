@@ -1,0 +1,6 @@
+Docker
+
+docker-machine wt01
+sudo su -
+docker ps
+docker logs --tail=100 -f ServerName
