@@ -1,0 +1,28 @@
+1. Check the current changes in feature branch:
+    git status
+2. Track current changes:
+    git add -A 
+3. Stash local changes:
+    git stash
+4. Switch to master branch:
+    git checkout master
+5. Pull the latest changes from remote master branch:
+    git pull --rebase
+6. Switch back to the feature branch:
+    git checkout featureBranckName
+7. Merge master into feature branch:
+    git merge master
+8. Get local changes back from stash:
+    git stash pop
+    
+--------------------Resolve the conflicts if there are any-------
+
+9. Check the changes again
+    git status
+10. Add the current changes:
+    git add -A
+11. Commit all the changes:
+    git commit -m   "commit message"
+12. Push changes to remote feature branch:
+    git push
+
